@@ -1,0 +1,3 @@
+[submodule "libraries/ServoK210"]
+	path = libraries/ServoK210
+	url = https://github.com/openblockcc/ServoK210.git
