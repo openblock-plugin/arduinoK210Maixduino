@@ -97,23 +97,74 @@ class OpenBlockArduinoK210MaixduinoDevice {
 
     get PINS_MENU () {
         return [
-            {text: '0', value: Pins.D0},
-            {text: '1', value: Pins.D1},
-            {text: '2', value: Pins.D2},
-            {text: '3', value: Pins.D3},
-            {text: '4', value: Pins.D4},
-            {text: '5', value: Pins.D5},
-            {text: '6', value: Pins.D6},
-            {text: '7', value: Pins.D7},
-            {text: '8', value: Pins.D8},
-            {text: '9', value: Pins.D9},
-            {text: '10', value: Pins.D10},
-            {text: '11', value: Pins.D11},
-            {text: '12', value: Pins.D12},
-            {text: '13', value: Pins.D13},
-            {text: 'SDA', value: Pins.SDA},
-            {text: 'SCL', value: Pins.SCL},
-            {text: 'BOOT', value: Pins.BOOT}
+            {
+                text: '0',
+                value: Pins.D0
+            },
+            {
+                text: '1',
+                value: Pins.D1
+            },
+            {
+                text: '2',
+                value: Pins.D2
+            },
+            {
+                text: '3',
+                value: Pins.D3
+            },
+            {
+                text: '4',
+                value: Pins.D4
+            },
+            {
+                text: '5',
+                value: Pins.D5
+            },
+            {
+                text: '6',
+                value: Pins.D6
+            },
+            {
+                text: '7',
+                value: Pins.D7
+            },
+            {
+                text: '8',
+                value: Pins.D8
+            },
+            {
+                text: '9',
+                value: Pins.D9
+            },
+            {
+                text: '10',
+                value: Pins.D10
+            },
+            {
+                text: '11',
+                value: Pins.D11
+            },
+            {
+                text: '12',
+                value: Pins.D12
+            },
+            {
+                text: '13',
+                value: Pins.D13
+            },
+            {
+                text: 'SDA',
+                value: Pins.SDA
+            },
+            {
+                text: 'SCL',
+                value: Pins.SCL
+            },
+            {
+                text: 'BOOT',
+                value: Pins.BOOT
+            }
         ];
     }
 
@@ -226,10 +277,22 @@ class OpenBlockArduinoK210MaixduinoDevice {
 
     get SERIAL_NO_MENU () {
         return [
-            {text: '0', value: SerialNo.Serial0},
-            {text: '1', value: SerialNo.Serial1},
-            {text: '2', value: SerialNo.Serial2},
-            {text: '3', value: SerialNo.Serial3}
+            {
+                text: '0',
+                value: SerialNo.Serial0
+            },
+            {
+                text: '1',
+                value: SerialNo.Serial1
+            },
+            {
+                text: '2',
+                value: SerialNo.Serial2
+            },
+            {
+                text: '3',
+                value: SerialNo.Serial3
+            }
         ];
     }
 
@@ -243,13 +306,34 @@ class OpenBlockArduinoK210MaixduinoDevice {
 
     get BAUDTATE_MENU () {
         return [
-            {text: '4800', value: Buadrate.B4800},
-            {text: '9600', value: Buadrate.B9600},
-            {text: '19200', value: Buadrate.B19200},
-            {text: '38400', value: Buadrate.B38400},
-            {text: '57600', value: Buadrate.B57600},
-            {text: '76800', value: Buadrate.B76800},
-            {text: '115200', value: Buadrate.B115200}
+            {
+                text: '4800',
+                value: Buadrate.B4800
+            },
+            {
+                text: '9600',
+                value: Buadrate.B9600
+            },
+            {
+                text: '19200',
+                value: Buadrate.B19200
+            },
+            {
+                text: '38400',
+                value: Buadrate.B38400
+            },
+            {
+                text: '57600',
+                value: Buadrate.B57600
+            },
+            {
+                text: '76800',
+                value: Buadrate.B76800
+            },
+            {
+                text: '115200',
+                value: Buadrate.B115200
+            }
         ];
     }
 
@@ -486,10 +570,19 @@ class OpenBlockArduinoK210MaixduinoDevice {
                     }
                 ],
                 menus: {
-                    pins: {items: this.PINS_MENU},
-                    mode: {items: this.MODE_MENU},
-                    level: {acceptReporters: true, items: this.LEVEL_MENU},
-                    interruptMode: {items: this.INTERRUP_MODE_MENU}
+                    pins: {
+                        items: this.PINS_MENU
+                    },
+                    mode: {
+                        items: this.MODE_MENU
+                    },
+                    level: {
+                        acceptReporters: true,
+                        items: this.LEVEL_MENU
+                    },
+                    interruptMode: {
+                        items: this.INTERRUP_MODE_MENU
+                    }
                 }
             },
             {
@@ -632,10 +725,18 @@ class OpenBlockArduinoK210MaixduinoDevice {
                     }
                 ],
                 menus: {
-                    baudrate: {items: this.BAUDTATE_MENU},
-                    serialNo: {items: this.SERIAL_NO_MENU},
-                    pins: {items: this.PINS_MENU},
-                    eol: {items: this.EOL_MENU}
+                    baudrate: {
+                        items: this.BAUDTATE_MENU
+                    },
+                    serialNo: {
+                        items: this.SERIAL_NO_MENU
+                    },
+                    pins: {
+                        items: this.PINS_MENU
+                    },
+                    eol: {
+                        items: this.EOL_MENU
+                    }
                 }
             },
             {
@@ -761,7 +862,9 @@ class OpenBlockArduinoK210MaixduinoDevice {
                     }
                 ],
                 menus: {
-                    dataType: {items: this.DATA_TYPE_MENU}
+                    dataType: {
+                        items: this.DATA_TYPE_MENU
+                    }
                 }
             }
         ];
