@@ -18,16 +18,56 @@
 export default {
     'interface': {
         'en': {
-            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.'
+            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.',
+            'arduinoK210Maixduino.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoK210Maixduino.examples.blink.name': 'Blink',
+            'arduinoK210Maixduino.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoK210Maixduino.examples.button.name': 'Button',
+            'arduinoK210Maixduino.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoK210Maixduino.examples.fade.name': 'Fade',
+            'arduinoK210Maixduino.examples.serialMonitor.description': 'Print digital pin readings to the Serial Monitor every half second.',
+            'arduinoK210Maixduino.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoK210Maixduino.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoK210Maixduino.examples.servoSweep.name': 'Servo Sweep'
         },
         'ru': {
-            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.'
+            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.',
+            'arduinoK210Maixduino.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoK210Maixduino.examples.blink.name': 'Blink',
+            'arduinoK210Maixduino.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoK210Maixduino.examples.button.name': 'Button',
+            'arduinoK210Maixduino.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoK210Maixduino.examples.fade.name': 'Fade',
+            'arduinoK210Maixduino.examples.serialMonitor.description': 'Print digital pin readings to the Serial Monitor every half second.',
+            'arduinoK210Maixduino.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoK210Maixduino.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoK210Maixduino.examples.servoSweep.name': 'Servo Sweep'
         },
         'zh-cn': {
-            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.'
+            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.',
+            'arduinoK210Maixduino.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoK210Maixduino.examples.blink.name': 'Blink',
+            'arduinoK210Maixduino.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoK210Maixduino.examples.button.name': 'Button',
+            'arduinoK210Maixduino.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoK210Maixduino.examples.fade.name': 'Fade',
+            'arduinoK210Maixduino.examples.serialMonitor.description': 'Print digital pin readings to the Serial Monitor every half second.',
+            'arduinoK210Maixduino.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoK210Maixduino.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoK210Maixduino.examples.servoSweep.name': 'Servo Sweep'
         },
         'zh-tw': {
-            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.'
+            'arduinoK210Maixduino.description': 'The K210 RISC-V board with ESP32 inside.',
+            'arduinoK210Maixduino.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoK210Maixduino.examples.blink.name': 'Blink',
+            'arduinoK210Maixduino.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoK210Maixduino.examples.button.name': 'Button',
+            'arduinoK210Maixduino.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoK210Maixduino.examples.fade.name': 'Fade',
+            'arduinoK210Maixduino.examples.serialMonitor.description': 'Print digital pin readings to the Serial Monitor every half second.',
+            'arduinoK210Maixduino.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoK210Maixduino.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoK210Maixduino.examples.servoSweep.name': 'Servo Sweep'
         }
     },
     'extensions': {
